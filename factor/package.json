@@ -1,0 +1,21 @@
+{
+  "name": "factorszk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "genKey": "bash ./scripts/generate_keys.sh",
+    "genProof": "bash ./scripts/generate_proof.sh",
+    "verifyProof": "bash ./scripts/verify_proof.sh",
+    "compile": "bash ./scripts/compile_circuit.sh",
+    "genContract": "snarkjs zkey export solidityverifier circuit_final.zkey verifier.sol",
+    "genCalldata": "snarkjs zkey export soliditycalldata public.json proof.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "snarkjs": "0.4.22"
+  }
+}
