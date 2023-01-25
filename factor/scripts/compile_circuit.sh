@@ -1,1 +1,1 @@
-circom circuit/circuit.circom --r1cs --wasm --sym
+circom circuit/circuit.circom --r1cs --wasm --sym --c

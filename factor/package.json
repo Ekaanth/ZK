@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "publisher": "Abhishek",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "genKey": "bash ./scripts/generate_keys.sh",
