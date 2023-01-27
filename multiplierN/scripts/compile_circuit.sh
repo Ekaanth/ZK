@@ -1,0 +1,1 @@
+circom circuit/multiplierN.circom --r1cs --wasm --sym --c
