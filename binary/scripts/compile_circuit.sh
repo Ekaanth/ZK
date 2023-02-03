@@ -1,0 +1,1 @@
+circom circuit/binaryCheck.circom --r1cs --wasm --sym --c
