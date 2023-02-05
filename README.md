@@ -18,6 +18,7 @@ circom is a domain-specific language (DSL) for writing circuits for zero-knowled
 
 - Sorted Merkle Tree: A Sorted Merkle Tree is a data structure that allows for efficient verification of membership in a set of ordered elements. You could write a circom circuit that takes a leaf value and a Merkle root as inputs, and outputs a proof that the leaf value is a member of the set represented by the Merkle root.
 
+
 - Circuit for privacy preserving smart contract: you could use circom to write a circuit for a privacy-preserving smart contract, where the contract state and inputs are hidden from the users. A ZKP is used to prove that the contract is correctly enforced without revealing the current state and the inputs.
 
 These are just a few examples of the types of projects that you can make using circom. You can also use circom to build more complex protocols like zk-SNARKs, zk-STARKs, etc.
