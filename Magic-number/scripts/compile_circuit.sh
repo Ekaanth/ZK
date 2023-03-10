@@ -1,0 +1,1 @@
+circom circuit/magicNumber.circom --r1cs --wasm --sym --c
